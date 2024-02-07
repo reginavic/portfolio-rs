@@ -694,14 +694,14 @@ h2, h3 {
 	top: -13px;
 	left: -18px;	
 }
-.watermark,.watermark-first,.watermark-year {
+.watermark,.watermark-first,.watermark-second,.watermark-year {
 	color: #65657b;
 	font-family:'Playfair Display', serif;
 	font-size: 15px;
 	font-weight: 300;
     text-align: center;
 }
-.watermark-first {
+.watermark {
 	margin-top: 50px;
 	margin-bottom: 5px;
 }
