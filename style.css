@@ -755,6 +755,7 @@ h2, h3 {
 		height: 40px;
 	}
 	}
+
 	@media all and (max-width: 1024px) {
 	.logo {
 		width: 24px;
@@ -784,7 +785,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 120vh;
+		height: 90vh;
 	}
 	.projects{
 		padding: 60px;
@@ -794,6 +795,7 @@ h2, h3 {
 		height: 36px;
 	}
 	}
+
 	@media all and (max-width: 912px) {
 	.logo {
 		width: 24px;
@@ -823,6 +825,7 @@ h2, h3 {
 		height: 60vh;
 	}
 	}
+
 	@media all and (max-width: 900px) {
 	h2{
 		font-size: 2rem;
@@ -852,12 +855,13 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 80vh;
+		height: 60vh;
 	}
 	.contactMessage{
 		font-size: 2rem;
 	}
 	}
+
 	@media all and (max-width: 700px) {
 	h2, h3{
 		font-size: 1.8rem;
@@ -896,7 +900,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 90vh;
+		height: 70vh;
 	}
 	#pictures {
 		width: 280px;
@@ -909,6 +913,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
+
 	@media all and (max-width:680px){
 	.hamburger{
 		display: block;
@@ -947,6 +952,7 @@ h2, h3 {
 		margin-top: -70px;
 	}
 	}
+
 	@media all and (max-width: 540px) {
 	h2{
 		font-size: 1.8rem;
@@ -979,7 +985,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 90vh;
+		height: 100vh;
 	}
 	.certificate {
 		font-size: 1rem
@@ -988,6 +994,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
+
 	@media all and (max-width: 500px) {
 	h2{
 		font-size: 1.8rem;
@@ -1032,6 +1039,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
+
 	@media all and (max-width: 420px) {
 	h2{
 		font-size: 1.8rem;
@@ -1047,7 +1055,7 @@ h2, h3 {
 		height: 16px;
 	}
 	ion-icon {
-		font-size: 10px;
+		font-size: 20px;
 	}
 	.links {
 		font-size: 8px;
@@ -1073,6 +1081,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
+
 	@media all and (max-width: 414px) {
 	h2{
 		font-size: 1.8rem;
@@ -1088,7 +1097,7 @@ h2, h3 {
 		height: 16px;
 	}
 	ion-icon {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.links {
 		font-size: 8px;
@@ -1105,7 +1114,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 90vh;
+		height: 100vh;
 	}
 	.certificate {
 		font-size: 0.8rem
@@ -1114,6 +1123,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
+
 	@media all and (max-width: 400px) {
 	h2{
 		font-size: 1.8rem;
@@ -1132,7 +1142,7 @@ h2, h3 {
 		font-size: 26px;
 	}
 	ion-icon {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.links {
 		font-size: 10px;
@@ -1149,7 +1159,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 120vh;
+		height: 110vh;
 	}
 	.certificate {
 		font-size: 0.8rem
@@ -1162,6 +1172,7 @@ h2, h3 {
 		height: 200px;
 	}
 	}
+
 	@media all and (max-width: 360px) {
 	h2{
 		font-size: 1.8rem;
@@ -1180,7 +1191,11 @@ h2, h3 {
 		font-size: 26px;
 	}
 	ion-icon {
-		font-size: 8px;
+		font-size: 15px;
+	}
+	.nav-item{
+		margin: 10px 0;
+		padding: 2px;
 	}
 	.links {
 		font-size: 10px;
@@ -1203,47 +1218,7 @@ h2, h3 {
 		font-size: 1.8rem;
 	}
 	}
-	@media all and (max-width: 350px) {
-	h2{
-		font-size: 1.8rem;
-	}
-	p{
-		font-size: 0.8rem;
-	}
-	.navbar{
-		padding: 5px;
-	}
-	.logo {
-		width: 16px;
-		height: 16px;
-	}
-	.portfolio {
-		font-size: 30px;
-	}
-	ion-icon {
-		font-size: 10px;
-	}
-	.links {
-		font-size: 10px;
-	}
-	.title {
-		font-size: 20px;
-	}
-	.about {
-		font-size: 10px;
-		font-weight: 90;
-	} 
-	.containerThree {
-		padding: 5px;
-		height: 120vh;
-	}
-	.certificate {
-		font-size: 0.8rem
-	}
-	.contactMessage{
-		font-size: 1.8rem;
-	}
-	}
+
 	@media all and (max-width: 350px) {
 	h2{
 		font-size: 1.8rem;
@@ -1275,7 +1250,7 @@ h2, h3 {
 	} 
 	.containerThree {
 		padding: 5px;
-		height: 120vh;
+		height: 90vh;
 	}
 	.certificate {
 		font-size: 0.8rem
@@ -1290,6 +1265,7 @@ h2, h3 {
 		padding: 10px;
 	}
 	}
+
 	@media all and (max-width: 280px) {
 	h2{
 		font-size: 1.8rem;
@@ -1308,7 +1284,7 @@ h2, h3 {
 		font-size: 20px;
 	}
 	ion-icon {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.links {
 		font-size: 10px;
@@ -1321,7 +1297,7 @@ h2, h3 {
 	}
 	.containerThree {
 		padding: 5px;
-		height: 120vh;
+		height: 90vh;
 	}
 	.certificate {
 		font-size: 0.8rem
