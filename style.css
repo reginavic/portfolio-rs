@@ -173,9 +173,12 @@ ion-icon {
     font-weight: 400;
     letter-spacing: 2px;
 }
+h1 {
+	color:rgb(225, 222, 217);
+}
 .about {
     font-family: 'Playfair Display', serif;
-	color: rgb(208, 204, 198);
+	color: rgb(225, 222, 217);
     position: relative;
     text-align: center;
     font-size: 20px;
@@ -188,8 +191,12 @@ ion-icon {
 	margin-top: 60px;
 }
 /*Project */
+h2 {
+	color: rgb(225, 222, 217);
+}
 .containerFour {
-	background: linear-gradient(40deg, #2146B0 0%, #1F2873 50%, #190c3d 100%);
+	background: rgb(28, 5, 71);
+	background: linear-gradient(0deg, rgb(24, 6, 59) 0%, rgb(22, 7, 72) 100%);
 	width: 100%;
 	height: 200%;
 	margin: 0;
@@ -202,7 +209,6 @@ ion-icon {
 	font-size: 2.5rem;
 	font-family: 'Playfair Display', serif;
 	font-weight: 300;
-	color: rgb(225, 222, 217);
 	text-align: center;
 	/*margin: 2rem 0;*/
     margin-top: 230px;
@@ -255,10 +261,10 @@ ion-icon {
 	font-size: 1.5rem;
 }
 .back {
-	background: #2146B0;
-	background: -webkit-linear-gradient(45deg, #2146B0 0%,#190c3d 100%);
-	background: -o-linear-gradient(45deg,  #2146B0 0%, #190c3d  100%);
-	background: linear-gradient(45deg,  #2146B0 0%, #190c3d  100%);
+	background: #23225c; 
+	background: -webkit-linear-gradient(45deg, #23225c 0%,#190c3d 100%);
+	background: -o-linear-gradient(45deg,  #23225c  0%, #190c3d  100%);
+	background: linear-gradient(45deg,  #23225c 0%, #190c3d  100%);
 }
 .front:after {
 	position: absolute;
@@ -413,8 +419,8 @@ ion-icon {
 }
 .project-btn:hover {
 	border: none;
-    background: rgb(0,3,255);
-    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+	background: rgb(33, 6, 84);
+	background: linear-gradient(0deg, rgba(33, 6, 84,1) 0%, rgb(49, 16, 156) 100%);
 } 
 /*Skills*/
 .containerThree {
@@ -429,7 +435,7 @@ ion-icon {
 }
 .certificate {
 	font-family: 'Playfair Display', serif;
-	color: rgb(208, 204, 198);
+	color: rgb(225, 222, 217);
     position: relative;
     text-align: center;
     font-size: 20px;
@@ -477,9 +483,11 @@ h2, h3 {
 	align-items: center;
 	width: 100%;
 	height: 800px;
-	background: linear-gradient(40deg, #2146B0 0%, #1F2873 50%, #190c3d 100%);
+	background: rgb(28, 5, 71);
+	background: linear-gradient(0deg, rgb(24, 6, 59) 0%, rgb(26, 8, 83) 100%);
 	margin-top: 60px;
 	position: relative;
+	color: rgb(225, 222, 217);
 }
 .form {
 	background-color: #13092e;
@@ -517,7 +525,7 @@ h2, h3 {
 	margin-top: 30px;
 }
 .input {
-	background-color: #34364b;
+	background-color: #261f3a;
 	border-radius: 12px;
 	border: 1px solid #190c3d;
 	border: 0;
@@ -563,7 +571,7 @@ h2, h3 {
 	color: #808097;
 }
 .input:focus ~ .placeholder {
-	color: #6f33a7;
+	color:#65657b; 
 }
 .submit {
 	box-sizing: border-box;
@@ -583,8 +591,8 @@ h2, h3 {
 }
 .submit:hover {
 	border: none;
-    background: linear-gradient(0deg, rgb(3, 7, 197) 0%, rgb(6, 101, 196) 100%);
-	
+	background: rgb(33, 6, 84);
+	background: linear-gradient(0deg, rgba(33, 6, 84,1) 0%, rgb(49, 16, 156) 100%);
 } 
 /*Footer */
 .footer {
@@ -657,7 +665,7 @@ h2, h3 {
 	}
 }
 .arrow-circle {
-	background: linear-gradient(0deg, rgb(3, 4, 85) 0%, #1f2f8b 40%, rgba(2,126,251,1) 100%);
+	background: linear-gradient(40deg, #3b2085f9 0%, #26195b 50%, #16185b 100%);
 	box-shadow: 0px 1px 2px 0 rgb(225, 222, 217);
 	height: 100%;
 	width: 100%;
@@ -687,7 +695,7 @@ h2, h3 {
 	content: '';
 	position: absolute;
 	border: 18px solid transparent;
-	border-bottom: 18px solid #2049a8;
+	border-bottom: 18px solid #26195b;
 	border-style: dotted;
 	width: 0;
 	height: 0;
