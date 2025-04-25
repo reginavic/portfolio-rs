@@ -261,7 +261,7 @@ h2 {
 	font-size: 1.5rem;
 }
 .back {
-	background: #23225c; 
+	/* background: #23225c;  */
 	background: -webkit-linear-gradient(45deg, #23225c 0%,#190c3d 100%);
 	background: -o-linear-gradient(45deg,  #23225c  0%, #190c3d  100%);
 	background: linear-gradient(45deg,  #23225c 0%, #190c3d  100%);
@@ -781,12 +781,10 @@ h2, h3 {
 	.header {
 		font-size: 40px;
 	}
-	.title {
+    .title {
 		font-size: 36px;
 	}
 	.about {
-		font-size: 20px;
-		font-weight: 200;
 		margin-left: auto;
 		margin-right: auto;
 		width: 30em;
@@ -818,12 +816,10 @@ h2, h3 {
 	.links {
 		font-size: 20px;
 	}
-	.title {
+    .title{
 		font-size: 36px;
 		}
 	.about {
-		font-size: 20px;
-		font-weight: 200;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -835,15 +831,18 @@ h2, h3 {
 	}
 
 	@media all and (max-width: 900px) {
-	h2{
+	.title{
+        font-size: 2rem;
+	}
+	.projects, .skills,.certifi, .contactMessage{
 		font-size: 2rem;
+	}
+	.about {
+		font-size: 1rem;
 	}
 	.logo {
 		width: 22px;
 		height: 22px;
-	}
-	.portfolio {
-		font-size: 30px;
 	}
 	ion-icon {
 		font-size: 20px;
@@ -851,12 +850,11 @@ h2, h3 {
 	.links {
 		font-size: 20px;
 	}
-	.title {
-		font-size: 32px;
+	.portfolio {
+		font-size: 30px;
 	}
 	.about {
-		font-size: 24px;
-		font-weight: 200;
+		font-size: 1rem;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -871,14 +869,20 @@ h2, h3 {
 	}
 
 	@media all and (max-width: 700px) {
-	h2, h3{
-		font-size: 1.8rem;
+    .title {
+		font-size: 2rem;
 	}
 	p{
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
-	.projects{
+	.about {
+		font-size: 1rem;
+	}
+    .projects, .skills,.certifi, .contactMessage {
 		font-size: 2rem;
+	}
+		.portfolio {
+		font-size: 30px;
 	}
 	.navbar{
 		padding: 10px;
@@ -887,21 +891,13 @@ h2, h3 {
 		width: 22px;
 		height: 22px;
 	}
-	.portfolio {
-		font-size: 30px;
-	}
 	ion-icon {
 		font-size: 30px;
 	}
 	.links {
 		font-size: 20px;
 	}
-	.title {
-		font-size: 30px;
-	}
 	.about {
-		font-size: 22px;
-		font-weight: 200;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -914,12 +910,12 @@ h2, h3 {
 		width: 280px;
 		height: 250px;
 	}
-	.certificate {
-		font-size: 1.5rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
+    .secondpage, .certificate{
+        font-size: 0.9rem;
+}
 	}
 
 	@media all and (max-width:680px){
@@ -962,18 +958,24 @@ h2, h3 {
 	}
 
 	@media all and (max-width: 540px) {
-	h2{
+	.title {
 		font-size: 1.8rem;
 	}
 	p{
+		font-size: 1.2rem;
+	}
+	.about {
 		font-size: 1rem;
+	}
+	.projects, .skills,.certifi, .contactMessage {
+		font-size: 1.8rem;
+	}
+	.portfolio {
+	font-size: 26px;
 	}
 	.logo {
 		width: 20px;
 		height: 20px;
-	}
-	.portfolio {
-		font-size: 26px;
 	}
 	ion-icon {
 		font-size: 20px;
@@ -981,12 +983,7 @@ h2, h3 {
 	.links {
 		font-size: 16px;
 	}
-	.title {
-		font-size: 28px;
-	}
 	.about {
-		font-size: 22px;
-		font-weight: 200;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -995,20 +992,26 @@ h2, h3 {
 		padding: 5px;
 		height: 100vh;
 	}
-	.certificate {
-		font-size: 1rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	}
 
 	@media all and (max-width: 500px) {
-	h2{
+	.title {
 		font-size: 1.8rem;
 	}
 	p{
-	font-size: 1rem;
+		font-size: 1.2rem;
+	}
+	.about {
+		font-size: 1rem;
+	}
+	.projects, .skills,.certifi, .contactMessage {
+		font-size: 1.8rem;
+	}
+		.portfolio {
+		font-size: 30px;
 	}
 	.navbar{
 		padding: 5px;
@@ -1024,14 +1027,9 @@ h2, h3 {
 		font-size: 20px;
 	}
 	.links {
-		font-size: 16px;
-	}
-	.title {
-		font-size: 26px;
+		font-size: 15px;
 	}
 	.about {
-		font-size: 20px;
-		font-weight: 200;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -1040,20 +1038,23 @@ h2, h3 {
 		padding: 5px;
 		height: 90vh;
 	}
-	.certificate {
-		font-size: 1rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
+	}
+	.placeholder {
+        font-size: 0.8rem;
+	}
+	.submit{
+		font-size: 1rem;
 	}
 	}
 
 	@media all and (max-width: 420px) {
-	h2{
-		font-size: 1.8rem;
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 5px;
@@ -1066,36 +1067,34 @@ h2, h3 {
 		font-size: 20px;
 	}
 	.links {
-		font-size: 8px;
-	}
-	.title {
-		font-size: 24px;
+		font-size: 15px;
 	}
 	.about {
-		font-size: 16px;
-		font-weight: 90;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
 	}
 	.containerThree {
 		padding: 5px;
-		height: 90vh;
-	}
-	.certificate {
-		font-size: 0.8rem
+		height: 110vh;
 	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
+	}
+	.placeholder {
+        font-size: 0.8rem;
+	}
+	.submit{
+		font-size: 1rem;
 	}
 	}
 
-	@media all and (max-width: 414px) {
-	h2{
-		font-size: 1.8rem;
+	/* @media all and (max-width: 414px) { 
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 5px;
@@ -1110,12 +1109,7 @@ h2, h3 {
 	.links {
 		font-size: 8px;
 	}
-	.title {
-		font-size: 24px;
-	}
 	.about {
-		font-size: 16px;
-		font-weight: 90;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -1124,20 +1118,17 @@ h2, h3 {
 		padding: 5px;
 		height: 100vh;
 	}
-	.certificate {
-		font-size: 0.8rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	}
 
 	@media all and (max-width: 400px) {
-	h2{
-		font-size: 1.8rem;
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 5px;
@@ -1155,12 +1146,7 @@ h2, h3 {
 	.links {
 		font-size: 10px;
 	}
-	.title {
-		font-size: 22px;
-	}
 	.about {
-		font-size: 16px;
-		font-weight: 90;
 		margin-left: auto;
 		margin-right: auto;
 		width: 20em;
@@ -1169,24 +1155,21 @@ h2, h3 {
 		padding: 5px;
 		height: 110vh;
 	}
-	.certificate {
-		font-size: 0.8rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	#pictures {
 		width: 250px;
 		height: 200px;
 	}
-	}
+	}*/
 
 	@media all and (max-width: 360px) {
-	h2{
-		font-size: 1.8rem;
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 5px;
@@ -1208,31 +1191,21 @@ h2, h3 {
 	.links {
 		font-size: 10px;
 	}
-	.title {
-		font-size: 22px;
-	}
-	.about {
-		font-size: 10px;
-		font-weight: 90;
-	} 
 	.containerThree {
 		padding: 5px;
 		height: 120vh;
 	}
-	.certificate {
-		font-size: 0.8rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	}
 
 	@media all and (max-width: 350px) {
-	h2{
-		font-size: 1.8rem;
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 2px;
@@ -1245,26 +1218,17 @@ h2, h3 {
 		font-size: 26px;
 	}
 	ion-icon {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.links {
 		font-size: 8px;
 	}
-	.title {
-		font-size: 20px;
-	}
-	.about {
-		font-size: 10px;
-	} 
 	.containerThree {
 		padding: 5px;
 		height: 90vh;
 	}
-	.certificate {
-		font-size: 0.8rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	.plan {
 		margin: 5px;
@@ -1275,11 +1239,11 @@ h2, h3 {
 	}
 
 	@media all and (max-width: 280px) {
-	h2{
-		font-size: 1.8rem;
+	h1, h2{
+		font-size: 1.5rem;
 	}
 	p{
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.navbar{
 		padding: 2px;
@@ -1297,21 +1261,12 @@ h2, h3 {
 	.links {
 		font-size: 10px;
 	}
-	.title {
-		font-size: 20px;
-	}
-	.about {
-		font-size: 10px;
-	}
 	.containerThree {
 		padding: 5px;
 		height: 90vh;
 	}
-	.certificate {
-		font-size: 0.8rem
-	}
 	.contactMessage{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	.plan {
 		margin: 5px;
