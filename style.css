@@ -33,12 +33,6 @@ a{
     width: 98%;
 	filter: blur(0.6px);
 }
-/*.canvas{
-	color: blanchedalmond;
-    height: 600px;
-    width: 100%;
-    position: fixed;
-}*/
 .navbar{
 	align-items: center;
 	font-family: 'Playfair Display', serif;
@@ -713,7 +707,7 @@ h2, h3 {
 	margin-top: 50px;
 	margin-bottom: 5px;
 }
-/* My Certificates Paage*/
+/* My Certificates Page*/
 #contain {
     display: flex;
     justify-content:center;
@@ -915,7 +909,7 @@ h2, h3 {
 	}
     .secondpage, .certificate{
         font-size: 0.9rem;
-}
+    }
 	}
 
 	@media all and (max-width:680px){
@@ -1180,8 +1174,6 @@ h2, h3 {
 		transition: 0.3s;
 	}
 	}
-	
-
 
 
 
