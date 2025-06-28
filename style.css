@@ -11,16 +11,16 @@ body {
     width: 98%;
 	filter: blur(0.6px);
 }
-header{
+header {
 	background-color: #13092e;
 }
-li{
+li {
 	list-style: none;
 }
-a{
+a {
 	text-decoration: none;
 }
-.container{
+.container {
 	width: 100%;
 	margin: 0 auto;
 }
@@ -33,7 +33,7 @@ a{
     width: 98%;
 	filter: blur(0.6px);
 }
-.navbar{
+.navbar {
 	align-items: center;
 	font-family: 'Playfair Display', serif;
 	display: flex;
@@ -61,17 +61,17 @@ ion-icon {
 	letter-spacing: 2px;
 	position: relative;
 }
-.nav-menu{
+.nav-menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 30px;
 }
-.hamburger{
+.hamburger {
 	display: none;
 	cursor: pointer;
 }
-.bar{
+.bar {
 	display: block;
 	width: 25px;
 	height: 3px;
@@ -202,7 +202,7 @@ h2 {
 	box-sizing: border-box;
     position: relative;		
 }
-.projects{
+.projects {
 	font-size: 2.5rem;
 	font-family: 'Playfair Display', serif;
 	font-weight: 300;
@@ -212,12 +212,12 @@ h2 {
 	padding: 40px;
 	letter-spacing: 1px;
 }
-.wrapper{
+.wrapper {
 	width: 90%;
 	margin: 0 auto;
 	max-width: 80rem;	
 }
-.cols{
+.cols {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -227,18 +227,18 @@ h2 {
 	-ms-flex-pack: center;
 	justify-content: center;	
 }
-.col{
+.col {
 	width: calc(25% - 2rem);
 	margin: 1rem;
 	cursor: pointer;
 }
-.container{
+.container {
 	-webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
 }
-.front,.back{
+.front,.back {
 	background-size: cover;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 	border-radius: 10px;
@@ -279,7 +279,7 @@ h2 {
 	border-radius: 10px;
 }
 .container:hover .front,
-.container:hover .back{
+.container:hover .back {
 	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
 	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -307,36 +307,36 @@ h2 {
 	perspective: inherit;
 	z-index: 2;
 }
-.container .back{
+.container .back {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-.container .front{
+.container .front {
 	-webkit-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-.container:hover .back{
+.container:hover .back {
 	-webkit-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-.container:hover .front{
+.container:hover .front {
 	-webkit-transform: rotateY(-180deg);
 	transform: rotateY(-180deg);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-.front .inner p{
+.front .inner p {
 	font-size: 2rem;
 	margin-bottom: 2rem;
 	position: relative;
 }
-.front .inner p:after{
+.front .inner p:after {
 	content: '';
 	width: 4rem;
 	height: 2px;
@@ -791,7 +791,7 @@ h2 {
 		padding: 5px;
 		height: 80vh;
 	}
-	.projects{
+	.projects {
 		padding: 60px;
 	}
 	.pic {
@@ -814,7 +814,7 @@ h2 {
 	.links {
 		font-size: 20px;
 	}
-    .title{
+    .title {
 		font-size: 36px;
 		}
 	.about {
@@ -829,7 +829,7 @@ h2 {
 	}
 
 	@media all and (max-width: 900px) {
-	.title{
+	.title {
         font-size: 2rem;
 	}
 	.projects, .skills,.certifi, .contactMessage{
@@ -870,7 +870,7 @@ h2 {
     .title {
 		font-size: 2rem;
 	}
-	p{
+	p {
 		font-size: 1.2rem;
 	}
 	.about {
@@ -878,6 +878,9 @@ h2 {
 	}
     .projects, .skills,.certifi, .contactMessage {
 		font-size: 2rem;
+	}
+	.front .inner p {
+	font-size: 1.7rem;
 	}
 	.portfolio {
 		font-size: 30px;
@@ -960,7 +963,7 @@ h2 {
 		font-size: 1.8rem;
 	}
 	p{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.about {
 		font-size: 1rem;
@@ -1000,7 +1003,7 @@ h2 {
 		font-size: 1.8rem;
 	}
 	p{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.about {
 		font-size: 1rem;
@@ -1054,6 +1057,9 @@ h2 {
 	p{
 		font-size: 1rem;
 	}
+	.front .inner p {
+	font-size: 1.5rem;
+	}
 	.navbar{
 		padding: 5px;
 	}
@@ -1087,9 +1093,9 @@ h2 {
 	}
 	}
 
-	@media all and (max-width: 360px) {
+	@media all and (max-width: 400px) { 
 	h1, h2{
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 	p{
 		font-size: 1rem;
@@ -1102,12 +1108,12 @@ h2 {
 		height: 16px;
 	}
 	.portfolio {
-		font-size: 26px;
+		font-size: 22px;
 	}
 	ion-icon {
-		font-size: 15px;
+		font-size: 16px;
 	}
-	.nav-item{ 
+    .nav-item{  
 		margin: 10px 0;
 		padding: 2px;
 	}
@@ -1129,7 +1135,53 @@ h2 {
 	}
 	}
 
-	@media all and (max-width: 280px) {
+	@media all and (max-width: 390px) { 
+	h1, h2{
+		font-size: 1.2rem;
+	}
+	p{
+		font-size: 1rem;
+	}
+	.navbar{
+		padding: 5px;
+	}
+	.logo {
+		width: 16px;
+		height: 16px;
+	}
+	.logo {
+		width: 14px;
+		height: 14px;
+	}
+	.portfolio {
+		font-size: 22px;
+	}
+	ion-icon {
+		font-size: 12px;
+	}
+    .nav-item{  
+		margin: 10px 0;
+		padding: 2px;
+	}
+	.links {
+		font-size: 10px;
+	}
+	.containerThree {
+		padding: 5px;
+		height: 100vh;
+	}
+	.contactMessage{
+		font-size: 1.5rem;
+	}
+	.plan {
+		margin: 5px;
+	}
+	.pic {
+		padding: 10px;
+	}
+	}
+
+	@media all and (max-width: 344px) {
 	h1, h2{
 		font-size: 1.5rem;
 	}
