@@ -1,18 +1,18 @@
 body {
-    background-color:#13092e;
+	background-color:#0e071f;
 }
 /*Header*/
 .containerOne {
     margin: 0px;
     padding: 0px;
     position: fixed;
-    background-color: #13092e;
+    background-color:#0e071f;
     height: 500px;
     width: 98%;
 	filter: blur(0.6px);
 }
 header {
-	background-color: #13092e;
+	background-color:#0e071f;
 }
 li {
 	list-style: none;
@@ -24,18 +24,9 @@ a {
 	width: 100%;
 	margin: 0 auto;
 }
-.containerOne {
-    margin: 0px;
-    padding: 0px;
-    position: fixed;
-    background-color: #13092e;
-    height: 500px;
-    width: 98%;
-	filter: blur(0.6px);
-}
 .navbar {
 	align-items: center;
-	font-family: 'Playfair Display', serif;
+    font-family: "Noto Sans JP", sans-serif; 
 	display: flex;
 	justify-content: flex-end;
 	padding: 10px;
@@ -56,9 +47,9 @@ ion-icon {
 	text-decoration: none;
 	color: rgb(208, 204, 198);
 	font-size: 20px;
-	font-weight: 200;
-	padding: 10px;
-	letter-spacing: 2px;
+	font-weight: 300px;
+	padding: 5px;
+	letter-spacing: 1px;
 	position: relative;
 }
 .nav-menu {
@@ -165,7 +156,7 @@ ion-icon {
     color:rgb(225, 222, 217);
     position: relative;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -174,7 +165,7 @@ h1 {
 	color:rgb(225, 222, 217);
 }
 .about {
-    font-family: 'Playfair Display', serif;
+    font-family: "Noto Sans JP", sans-serif;
 	color: rgb(225, 222, 217);
     position: relative;
     text-align: center;
@@ -192,20 +183,21 @@ h2 {
 	color: rgb(225, 222, 217);
 }
 .containerFour {
-	background: rgb(28, 5, 71); 
-	background: linear-gradient(0deg, rgb(24, 6, 59) 0%, rgb(22, 7, 72) 100%);
+	background: rgb(31, 5, 79); 
+	background: linear-gradient(0deg, rgb(29, 16, 57) 30%, rgb(16, 6, 37) 100%);
 	width: 100%;
 	height: 200%;
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-    position: relative;		
+    position: relative;
+	margin-top: 400px;		
 }
 .projects {
 	font-size: 2.5rem;
-	font-family: 'Playfair Display', serif;
-	font-weight: 300;
+	font-family: 'Playfair Display', serif; 
+	font-weight: 100;
 	text-align: center;
 	/*margin: 2rem 0;*/
     margin-top: 230px;
@@ -258,7 +250,7 @@ h2 {
 	font-size: 1.5rem;
 }
 .back {
-	background: #23225c;  
+	background: #292862;
 	background: -webkit-linear-gradient(45deg, #23225c 0%,#190c3d 100%);
 	background: -o-linear-gradient(45deg,  #23225c  0%, #190c3d  100%);
 	background: linear-gradient(45deg,  #23225c 0%, #190c3d  100%);
@@ -332,7 +324,7 @@ h2 {
 	transform-style: preserve-3d;
 }
 .front .inner p {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-bottom: 2rem;
 	position: relative;
 }
@@ -350,12 +342,12 @@ h2 {
 }
 .par-back {
     color: rgb(225, 222, 217);
-    text-shadow: 2px 3px 4px  #13092e;
+    /* text-shadow: 2px 3px 4px  #13092e; */
 }
 .front .inner {
-	color: rgba(255,255,255,0.7);
-	font-family: Georgia, serif; 
-	font-weight:  300;
+	/* color: rgba(255,255,255,0.7);*/
+	font-family: 'Playfair Display', serif; 
+	font-weight: 100;
 }
 .oneFront {
 	background-image: url("pic/Group83.jpg");
@@ -403,7 +395,6 @@ h2 {
 	background-image: url("pic/Group85.jpg");
 }
 .project-btn {
-	font-family: Georgia, serif; 
 	font-size: 17px;
 	font-weight: 300;
 	padding: 8px 20px;
@@ -421,7 +412,7 @@ h2 {
 } 
 /*Skills*/
 .containerThree {
-	background-color: #13092e;
+	background-color:#0e071f;
 	position: relative;
 	margin-top: 60px;
 	padding: 50px;
@@ -431,7 +422,7 @@ h2 {
 	margin-top: 30px;
 }
 .certificate {
-	font-family: 'Playfair Display', serif;
+	font-family: "Noto Sans JP", sans-serif;
 	color: rgb(225, 222, 217);
     position: relative;
     text-align: center;
@@ -465,7 +456,7 @@ h2 {
 }
 h2 {
 	font-size: 2.5rem;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif; 
 	font-weight: 300;
 	color: rgb(225, 222, 217);
 	text-align: center;
@@ -480,35 +471,35 @@ h2 {
 	align-items: center;
 	width: 100%;
 	height: 800px;
-	background: rgb(28, 5, 71);
-	background: linear-gradient(0deg, rgb(24, 6, 59) 0%, rgb(26, 8, 83) 100%);
+	background: rgb(31, 5, 79); 
+	background: linear-gradient(0deg, rgb(29, 16, 57) 30%, rgb(16, 6, 37) 100%);
 	margin-top: 60px;
 	position: relative;
 	color: rgb(225, 222, 217);
 }
 .form {
-	background-color: #13092e;
+	background-color:#0e071f;
 	border-radius: 20px;
 	box-sizing: border-box;
 	height: 580px;
 	padding: 20px;
 	width: 500px;
 }
-.contactText {
-	color:#65657b; 
-    margin-top: 30px;
-	font-family: Georgia, serif; 
-	text-align: center;
-	font-size: 18px;
-}
 .contactMessage {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
-	font-weight: 300;
 	color: rgb(225, 222, 217);
 	font-size:  2.5rem;
-	margin-top: 20px;
+	margin-top: 40px;
 	letter-spacing: 1px;
+}
+.contactText {
+	/* color:#7c7c96;  */
+	color: rgba(255,255,255,0.7);
+    margin-top: 20px;
+	font-family: "Noto Sans JP", sans-serif;
+	text-align: center;
+	font-size: 18px;
 }
 .input-container {
 	height: 50px;
@@ -522,20 +513,20 @@ h2 {
 	margin-top: 30px;
 }
 .input {
-	background-color: #261f3a;
+	background-color: #261f3a; 
 	border-radius: 12px;
 	border: 1px solid #190c3d;
 	border: 0;
 	box-sizing: border-box;
 	color: rgb(225, 222, 217);
-	font-size: 18px;
+	font-size: 16px;
 	height: 100%;
 	outline: 0;
 	padding: 4px 20px 0;
 	width: 100%;
 }
 .cut {
-	background-color: #13092e;
+    background-color:#0e071f;
 	border-radius: 10px;
 	height: 20px;
 	left: 20px;
@@ -551,7 +542,8 @@ h2 {
 }
 .placeholder {
 	color: #65657b;
-	font-family: Georgia, serif; 
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 16px;
 	left: 20px;
 	line-height: 14px;
 	pointer-events: none;
@@ -579,7 +571,6 @@ h2 {
 	margin-top: 38px;
 	text-align: center;
 	width: 100%;
-    font-family: Georgia, serif; 
     background-color: transparent;
 	border: 1px solid #808097;
 	border-radius: 10px;
@@ -595,7 +586,6 @@ h2 {
 .footer {
 	width: 100%;
 	height: 200px;
-	background-color: #13092e;
 	position: relative;
 	bottom: 0;
 	left: 0;
@@ -699,16 +689,21 @@ h2 {
 	top: -13px;
 	left: -18px;	
 }
-.watermark,.watermark-first,.watermark-second,.watermark-year {
-	color: #65657b;
-	font-family:'Playfair Display', serif;
+.watermark-first,.watermark-second,.watermark-year {
+	color: #7c7c96;
+	font-family: "Noto Sans JP", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
     text-align: center;
 }
 .watermark {
+	color: #7c7c96;
 	margin-top: 50px;
 	margin-bottom: 5px;
+	font-family:'Playfair Display', serif;
+	font-size: 15px;
+	font-weight: 300;
+    text-align: center;
 }
 /* My Certificates Page*/
 #contain {
@@ -725,7 +720,7 @@ h2 {
     padding: 10px;
     cursor: pointer;
     border: none;
-	background-color: #13092e;
+    background-color:#0e071f;
 }
 .arrowbtn {
 	display: flex;
@@ -771,7 +766,7 @@ h2 {
 		font-size: 30px;
 	}
 	ion-icon {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.links {
 		font-size: 16px;
@@ -809,7 +804,7 @@ h2 {
 		font-size: 27px;
 	}
 	ion-icon {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.links {
 		font-size: 20px;
@@ -843,7 +838,7 @@ h2 {
 		height: 22px;
 	}
 	ion-icon {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.links {
 		font-size: 20px;
@@ -979,7 +974,7 @@ h2 {
 		height: 20px;
 	}
 	ion-icon {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.links {
 		font-size: 16px;
@@ -994,7 +989,7 @@ h2 {
 		height: 100vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	}
 
@@ -1040,7 +1035,7 @@ h2 {
 		height: 90vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.placeholder {
         font-size: 0.8rem;
@@ -1052,7 +1047,7 @@ h2 {
 
 	@media all and (max-width: 420px) {
 	h1, h2{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	p{
 		font-size: 1rem;
@@ -1068,7 +1063,7 @@ h2 {
 		height: 16px;
 	}
 	ion-icon {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.links {
 		font-size: 15px;
@@ -1083,7 +1078,7 @@ h2 {
 		height: 110vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.placeholder {
         font-size: 0.8rem;
@@ -1095,7 +1090,7 @@ h2 {
 
 	@media all and (max-width: 400px) { 
 	h1, h2{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 	}
 	p{
 		font-size: 1rem;
@@ -1125,7 +1120,7 @@ h2 {
 		height: 100vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.plan {
 		margin: 5px;
@@ -1137,7 +1132,7 @@ h2 {
 
 	@media all and (max-width: 390px) { 
 	h1, h2{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 	}
 	p{
 		font-size: 1rem;
@@ -1157,7 +1152,7 @@ h2 {
 		font-size: 22px;
 	}
 	ion-icon {
-		font-size: 12px;
+		font-size: 16px;
 	}
     .nav-item{  
 		margin: 10px 0;
@@ -1171,7 +1166,7 @@ h2 {
 		height: 100vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.plan {
 		margin: 5px;
@@ -1183,7 +1178,7 @@ h2 {
 
 	@media all and (max-width: 344px) {
 	h1, h2{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	p{
 		font-size: 1rem;
@@ -1199,7 +1194,7 @@ h2 {
 		font-size: 20px;
 	}
 	ion-icon {
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.links {
 		font-size: 10px;
@@ -1209,7 +1204,7 @@ h2 {
 		height: 90vh;
 	}
 	.contactMessage{
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 	}
 	.plan {
 		margin: 5px;
@@ -1224,7 +1219,7 @@ h2 {
 		top: 80px;
 		gap: 0;
 		flex-direction: column;
-		background-color:#13092e;
+		background-color:#0e071f;
 		width: 20%;
 		text-align: center;
 		transition: 0.3s;
