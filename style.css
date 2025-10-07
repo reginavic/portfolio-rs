@@ -690,19 +690,19 @@ h2 {
 	left: -18px;	
 }
 .watermark-first,.watermark-second,.watermark-year {
-	color: #7c7c96;
+	color:  #65657b;
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
     text-align: center;
 }
 .watermark {
-	color: #7c7c96;
+	color:  #65657b;
 	margin-top: 50px;
 	margin-bottom: 5px;
 	font-family:'Playfair Display', serif;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 200;
     text-align: center;
 }
 /* My Certificates Page*/
