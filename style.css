@@ -52,6 +52,9 @@ ion-icon {
 	letter-spacing: 1px;
 	position: relative;
 }
+.decorThree {
+	margin-right: 12px;
+}
 .nav-menu {
 	display: flex;
 	justify-content: space-between;
@@ -496,8 +499,7 @@ h2 {
 	letter-spacing: 1px;
 }
 .contactText {
-	/* color:#7c7c96;  */
-	color: rgba(255,255,255,0.7);
+	color:rgb(225, 222, 217);
     margin-top: 20px;
 	font-family: "Noto Sans JP", sans-serif;
 	text-align: center;
@@ -768,7 +770,7 @@ h2 {
 		font-size: 30px;
 	}
 	ion-icon {
-		font-size: 30px;
+		font-size: 24px;
 	}
 	.links {
 		font-size: 16px;
@@ -840,7 +842,7 @@ h2 {
 		height: 22px;
 	}
 	ion-icon {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.links {
 		font-size: 20px;
@@ -972,11 +974,11 @@ h2 {
 	font-size: 26px;
 	}
 	.logo {
-		width: 20px;
-		height: 20px;
+		width: 18px;
+		height: 18px;
 	}
 	ion-icon {
-		font-size: 30px;
+		font-size: 18px;
 	}
 	.links {
 		font-size: 16px;
@@ -1015,8 +1017,8 @@ h2 {
 		padding: 5px;
 	}
 	.logo {
-		width: 20px;
-		height: 20px;
+		width: 18px;
+		height: 18px;
 	}
 	.portfolio {
 		font-size: 30px;
@@ -1065,7 +1067,7 @@ h2 {
 		height: 16px;
 	}
 	ion-icon {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.links {
 		font-size: 15px;
@@ -1147,8 +1149,8 @@ h2 {
 		height: 16px;
 	}
 	.logo {
-		width: 14px;
-		height: 14px;
+		width: 16px;
+		height: 16px;
 	}
 	.portfolio {
 		font-size: 22px;
@@ -1177,7 +1179,6 @@ h2 {
 		padding: 10px;
 	}
 	}
-
 	@media all and (max-width: 344px) {
 	h1, h2{
 		font-size: 1.5rem;
@@ -1189,14 +1190,14 @@ h2 {
 		padding: 2px;
 	}
 	.logo {
-		width: 8px;
-		height: 8px;
+		width: 15px;
+		height: 15px;
 	}
 	.portfolio {
 		font-size: 20px;
 	}
 	ion-icon {
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.links {
 		font-size: 10px;
